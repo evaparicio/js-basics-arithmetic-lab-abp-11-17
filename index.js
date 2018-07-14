@@ -15,8 +15,4 @@ let randomNumber = Math.random() * 20;
 
 let randomInteger = Math.floor(randomNumber);
 
-let randomUserID;
-
-if Number.isInteger(randomInteger){
-  console.log (randomInteger+1000000000);
-}
+let randomUserID
