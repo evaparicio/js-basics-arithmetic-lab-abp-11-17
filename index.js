@@ -18,5 +18,5 @@ let randomInteger = Math.floor(randomNumber);
 let randomUserID;
 
 if Number.isInteger(randomInteger){
-  return randomInteger+1000000000;
-}
+  return randomInteger+1000000000
+};
